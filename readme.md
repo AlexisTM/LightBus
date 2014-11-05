@@ -32,6 +32,7 @@ PROS & CONS
 * NOT a differential pair (would need a shield)
 * NO crypt, we can plug in & hack
 * NOT universal
+* NO Aknowlegde / Answers (Possible improvement)
 
 LICENSE
 -------
@@ -49,7 +50,18 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see [http://www.gnu.org/licenses/](http://www.gnu.org/licenses/).
 
+PROTOCOL
+--------
 
+ * X = adress
+ * Y = function
+ * D = data
+
+**BYTE 1** : 1XXXYYYY
+
+**BYTE 2** : 0DDDDDDD
+
+|1 adr(3) func(4) | 0 data(7)|
 
 Improves
 --------
